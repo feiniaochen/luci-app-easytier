@@ -24,7 +24,8 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - x86_64
+          - mipsel_24kc
+          - mipsel_24kc_24kf
         sdk:
           - openwrt-22.03
           - SNAPSHOT
